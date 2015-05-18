@@ -1,0 +1,51 @@
+﻿Build started 5/5/2015 11:49:39 PM.
+     1>Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\DayZ_Hack_v2\DayZ_Hack_v2.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.. /I. /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I"C:\Program Files (x86)\detours_1.5" /Zi /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_HACK_V2_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\DayZ_Hack_v2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.. /I. /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I"C:\Program Files (x86)\detours_1.5" /Zi /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_HACK_V2_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\DayZ_Hack_v2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BaseDXHook\BaseDXHook.cpp CCanvas\CCanvas.cpp CTools\CTools.cpp DayZ_Hack_v2.cpp Hooks\Hooking.cpp Hooks\Hooks2.cpp Hooks\Hook_File.cpp Hooks\Hook_Network.cpp Hooks\Hook_Services.cpp Hooks\Ignore.cpp Log\Log.cpp WinControls.cpp
+         BaseDXHook.cpp
+         CCanvas.cpp
+         CTools.cpp
+         DayZ_Hack_v2.cpp
+         Hooking.cpp
+         Hooks2.cpp
+         Hook_File.cpp
+         Hook_Network.cpp
+         Hook_Services.cpp
+         Ignore.cpp
+         Log.cpp
+         WinControls.cpp
+     1>WinControls.cpp(51): warning C4129: '/' : unrecognized character escape sequence
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.. /I. /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I"C:\Program Files (x86)\detours_1.5" /Zi /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_HACK_V2_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(894): warning C4018: '<' : signed/unsigned mismatch
+     1>dllmain.cpp(903): warning C4018: '<' : signed/unsigned mismatch
+     1>dllmain.cpp(950): warning C4018: '<' : signed/unsigned mismatch
+     1>dllmain.cpp(995): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /I"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\DayZ_Hack_v2" /nologo /fo"Release\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\Release\DayZ_Hack_v2.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\DayZ_Hack_v2\Lib" /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" /LIBPATH:"C:\Program Files (x86)\detours_1.5" D3D9.lib detours.lib D3dx9.lib distorm3.2mod.lib Ws2_32.lib Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\Release\DayZ_Hack_v2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\Release\DayZ_Hack_v2.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\Resource.res
+         Release\BaseDXHook.obj
+         Release\CCanvas.obj
+         Release\CTools.obj
+         Release\DayZ_Hack_v2.obj
+         Release\dllmain.obj
+         Release\Hooking.obj
+         Release\Hooks2.obj
+         Release\Hook_File.obj
+         Release\Hook_Network.obj
+         Release\Hook_Services.obj
+         Release\Ignore.obj
+         Release\Log.obj
+         Release\stdafx.obj
+         Release\WinControls.obj
+         Generating code
+         Finished generating code
+         DayZ_Hack_v2.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\Release\DayZ_Hack_v2.dll
+     1>Done Building Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\DayZ_Hack_v2\DayZ_Hack_v2\DayZ_Hack_v2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.94
