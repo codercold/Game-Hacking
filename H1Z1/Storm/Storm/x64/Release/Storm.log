@@ -1,0 +1,44 @@
+﻿Build started 4/23/2015 4:54:29 PM.
+     1>Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\Storm\Storm.vcxproj" on node 2 (Rebuild target(s)).
+     1>_MASM:
+         Assembling ASMFiles\GameOverlay_Detour.asm...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmpa0a7fd071de3422d92e60683381170b1.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Release\GameOverlay_Detour.obj" /W3 /errorReport:prompt  /TaASMFiles\GameOverlay_Detour.asm
+       _MASM:
+         Assembling ASMFiles\RebuildByte_Detour.asm...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp4b0e3721b71b4106b6c8ba80bfc090b0.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Release\RebuildByte_Detour.obj" /W3 /errorReport:prompt  /TaASMFiles\RebuildByte_Detour.asm
+       _MASM:
+         Assembling ASMFiles\Prolog_Present.asm...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp8da3461b8d4d4899a02c673b478853a6.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Release\Prolog_Present.obj" /W3 /errorReport:prompt  /TaASMFiles\Prolog_Present.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I. /I.. /Zi /nologo /W1 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D STORM_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\Storm.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I. /I.. /Zi /nologo /W1 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D STORM_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Storm.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt BaseDXHook\BaseDXHook.cpp Global.cpp Hooks.cpp Log\Log.cpp Storm.cpp
+         BaseDXHook.cpp
+         Global.cpp
+         Hooks.cpp
+         Log.cpp
+         Storm.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I. /I.. /Zi /nologo /W1 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D STORM_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\x64\Release\Storm.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64" D3D9.lib D3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\x64\Release\Storm.pdb" /SUBSYSTEM:WINDOWS /STACK:"3","3" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\x64\Release\Storm.lib" /MACHINE:X64 /SAFESEH:NO /DLL x64\Release\BaseDXHook.obj
+         x64\Release\dllmain.obj
+         x64\Release\Global.obj
+         x64\Release\Hooks.obj
+         x64\Release\Log.obj
+         x64\Release\stdafx.obj
+         x64\Release\Storm.obj
+         x64\Release\GameOverlay_Detour.obj
+         x64\Release\RebuildByte_Detour.obj
+         x64\Release\Prolog_Present.obj
+         Generating code
+         Finished generating code
+         Storm.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\x64\Release\Storm.dll
+     1>Done Building Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Storm\Storm\Storm.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
