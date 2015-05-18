@@ -1,0 +1,21 @@
+#ifndef SIGNATURES
+#define SIGNATURES
+
+#include "stdafx.h"
+
+namespace
+{
+	const char* szArmaMainSignature="\xA1\x00\x00\x00\x00\x8B\x40\x20\x81\xEC\x00\x00\x00\x00\x53\x56\x57\x33\xDB\x53\x68\x00\x00\x00\x00\x68\x00\x00\x00\x00\x53\x50\xE8\x00\x00\x00\x00\x8B\xF0";
+	const char* szArmaMainMask="x????xxxxx????xxxxxxx????x????xxx????xx";
+
+	const char* szTransformSignature = "\xDE\xE9\xD9\x1C\x24\xE8\x00\x00\x00\x00\xA1\x00\x00\x00\x00\x8B\x88\x00\x00\x00\x00";
+	const char* szTransformMask = "xxxxxx????x????xx????";
+
+	const char* szD3DSignature = "\xC7\x06\x00\x00\x00\x00\x89\x86\x00\x00\x00\x00\x89\x86";
+	const char* szD3DMask = "xx????xx????xx";
+}
+
+extern DWORD g_dwArmaMainOffset;
+extern DWORD g_dwTransformsOffset;
+
+#endif

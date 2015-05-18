@@ -1,0 +1,68 @@
+﻿Build started 3/27/2014 04:41:14.
+     1>Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Dayz\Dayz.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Dayz.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(19): warning C4005: 'RT_MANIFEST' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(253) : see previous definition of 'RT_MANIFEST'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(20): warning C4005: 'CREATEPROCESS_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(254) : see previous definition of 'CREATEPROCESS_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(21): warning C4005: 'ISOLATIONAWARE_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(255) : see previous definition of 'ISOLATIONAWARE_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(22): warning C4005: 'ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(256) : see previous definition of 'ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(23): warning C4005: 'MINIMUM_RESERVED_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(257) : see previous definition of 'MINIMUM_RESERVED_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(24): warning C4005: 'MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(258) : see previous definition of 'MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Dayz.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CCanvas.cpp CTools.cpp Dayz.cpp Hook_File.cpp Hook_Network.cpp Hook_Services.cpp Hooking.cpp Ignore.cpp Misc.cpp Vector.cpp
+         CCanvas.cpp
+         CTools.cpp
+         Dayz.cpp
+         Hook_File.cpp
+         Hook_Network.cpp
+         Hook_Services.cpp
+         Hooking.cpp
+         Ignore.cpp
+     1>Ignore.cpp(64): warning C4018: '>=' : signed/unsigned mismatch
+         Misc.cpp
+         Vector.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DAYZ_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(19): warning C4005: 'RT_MANIFEST' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(253) : see previous definition of 'RT_MANIFEST'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(20): warning C4005: 'CREATEPROCESS_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(254) : see previous definition of 'CREATEPROCESS_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(21): warning C4005: 'ISOLATIONAWARE_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(255) : see previous definition of 'ISOLATIONAWARE_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(22): warning C4005: 'ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(256) : see previous definition of 'ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(23): warning C4005: 'MINIMUM_RESERVED_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(257) : see previous definition of 'MINIMUM_RESERVED_MANIFEST_RESOURCE_ID'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.rh(24): warning C4005: 'MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winuser.h(258) : see previous definition of 'MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID'
+     1>dllmain.cpp(1739): warning C4101: 'soldier' : unreferenced local variable
+     1>dllmain.cpp(1748): warning C4101: 'twoDOnScreenCoords' : unreferenced local variable
+     1>dllmain.cpp(1944): warning C4101: 'lootbuff' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Release\Dayz.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Administrator\Desktop\Feb212014 2 Cuckoobox Cuckoomon\cuckoomon-master\cuckoomon-master\distorm3.2-package\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" Shlwapi.lib distorm3.2mod.lib Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Release\Dayz.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Release\Dayz.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\Dayz.res
+         Release\CCanvas.obj
+         Release\CTools.obj
+         Release\Dayz.obj
+         Release\dllmain.obj
+         Release\Hooking.obj
+         Release\Hook_File.obj
+         Release\Hook_Network.obj
+         Release\Hook_Services.obj
+         Release\Ignore.obj
+         Release\Misc.obj
+         Release\stdafx.obj
+         Release\Vector.obj
+         Generating code
+         Finished generating code
+         Dayz.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Release\Dayz.dll
+     1>Done Building Project "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Dayz\Dayz\Dayz.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.24
